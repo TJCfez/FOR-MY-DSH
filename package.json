@@ -1,0 +1,22 @@
+{
+  "name": "for-my-dsh",
+  "version": "0.1.0",
+  "description": "Personal DeepSeek Harness plugin bundle (FOR-MY-DSH).",
+  "type": "module",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "README.md"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "keywords": ["dsh", "deepseek-harness", "plugin", "bundle"],
+  "license": "MIT",
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}

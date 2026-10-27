@@ -1,0 +1,4 @@
+# Patch layer contributed by the for-my-dsh bundle.
+- insert:
+    - id: for-my-dsh
+      name: for-my-dsh
